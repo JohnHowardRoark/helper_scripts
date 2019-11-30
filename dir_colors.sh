@@ -46,6 +46,9 @@ print_colors() {
     done
 }
 
+# Clear the display since we are showing a lot of info.
+clear
+
 # Find and echo system color settings base on dircolors
 echo System color settings:
 get_sys_colors
