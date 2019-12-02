@@ -1,0 +1,27 @@
+printf conversion characters
+
+d   signed denary integer
+ld  long signed denary integer
+u   unsigned denary integer
+lu  long usigned denary integer
+x   hexadecimal integer
+o   octal integer
+s   string
+c   single character
+f   fixed decimal floating point
+e   scientific notation floating point
+g   use f or e, whichever is shorter
+
+scanf conversion characters
+
+d   denary integer
+ld  long decimal integer
+x   hexadecimal integer
+o   octal integer
+h   short integer
+f   float type
+lf  long float or double
+e   float type
+le  double
+c   single character
+s   character string

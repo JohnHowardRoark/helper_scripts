@@ -1,0 +1,41 @@
+[]      match characters in the brackets
+[^]     match characters not contained in the brackets
+
+.       match any character
+*       item occurs zero or more times
++       item occurs one or more times
+?       item occurs zero or one times
+{5}     item occurs five times
+{3,7}   item occurs between 3 and 7 times
+{2,}    item occurs at least 2 times
+
+{n}     match exactly n occurrences of the preceeding item
+{m}     match between n and m occurrences of the preceeding item
+{n.}    match n or more of the preceeding item
+\       remove the special meaning of a character
+
+\s      matches anything which is considered whitespace
+\S      matches the opposite of \s
+\d      matches any digit (the same as [0-9])
+\D      matches the opposite of \d
+\w      matches any word character ([A-Za-z0-9_]
+\W      matches the opposite of \w
+
+\t      matches a tab
+\r      matches a carriage return
+\n      matches a newline (or line feed)
+
+^       beginning of the line
+$       end of the line
+
+\<      beginning of a word
+\>      end of a word
+\b      either the beginning or end of a word
+
+( )     group part of the regular expression
+\1 \2   refer to something matched by a previous grouping
+|       match what is on either the left or right of the pipe symbol
+(?=x)   positive lookahead
+(?!x)   negative lookahead
+(?<=x)  positive lookbehind
+(?<!x)  negative lookbehind
