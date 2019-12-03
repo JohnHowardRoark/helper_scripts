@@ -5,7 +5,7 @@ ask() {
     echo "  r for regex list"
     echo "  t for c conversion character types"
     echo "  d for current dircolors"
-    echo "  c for current dircolors"
+    echo "  c for system color pallette"
     echo -n "Selection: ";read request; echo
 }
 
